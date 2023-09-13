@@ -41,7 +41,7 @@ module.exports = {
 				title: "title 3s ease-out forwards",
 				"fade-left": "fade-left 3s ease-in-out forwards",
 				"fade-right": "fade-right 3s ease-in-out forwards",
-				typing: "typing 2s steps(10) infinite alternate, blink .7s infinite",
+				typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
 			},
 			keyframes: {
 				"fade-in": {
