@@ -33,7 +33,6 @@ export default function Home() {
 			<h1 className="z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline
 			font-display inline-block overflow-hidden animate-typing duration-5000 ease-linear sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
 				Jerry Zhang
-				</h1>
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
