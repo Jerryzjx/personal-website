@@ -85,7 +85,7 @@ module.exports = {
 				title: {
 					"0%": {
 						"line-height": "0%",
-						"letter-spacing": "0.25em",
+						"letter-spacing": "0.3em",
 						opacity: "0",
 					},
 					"25%": {
