@@ -28,7 +28,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-12 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
 				Jerry Zhang
 			</h1>
 
@@ -45,13 +45,13 @@ export default function Home() {
 					</Link>
 
 					<br />
-					and working on{" "}
+					and I like to work on{" "}
 					<Link
 						target="_blank"
 						href="https://unkey.dev"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						my personal projects
+						my backend projects
 					</Link>{" "}
 					at night.
 				</h2>

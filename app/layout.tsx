@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 		default: "Jerry Zhang",
 		template: "%s | Jerry Zhang",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Computer Science student at the University of Waterloo",
 	openGraph: {
-		title: "chronark.com",
+		title: "jerryzjx.com",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Computer Science student at the University of Waterloo",
+		url: "https://jerryzjx.com",
+		siteName: "jerryzjx.com",
 		images: [
 			{
 				url: "https://chronark.com/og.png",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 				height: 1080,
 			},
 		],
-		locale: "en-US",
+		locale: "en-CA",
 		type: "website",
 	},
 	robots: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Jerry Zhang",
 		card: "summary_large_image",
 	},
 	icons: {
