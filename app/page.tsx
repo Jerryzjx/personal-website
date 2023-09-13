@@ -1,6 +1,7 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Particles from "./components/particles";
+
 
 const navigation = [
 	{ name: "Projects", href: "/projects" },
@@ -8,6 +9,21 @@ const navigation = [
 ];
 
 export default function Home() {
+	const [title, setTitle] = useState('');
+	const fullTitle = 'Jerry Zhang';
+
+	useEffect(() => {
+		let index = 0;
+		const timer = setInterval(() => {
+			setTitle((prevTitle) => prevTitle + fullTitle[index]);
+			index++;
+			if (index === fullTitle.length) {
+				clearInterval(timer);
+			}
+		}, 150); // Speed of typing in milliseconds
+		return () => clearInterval(timer);
+	}, []);
+
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<nav className="my-16 animate-fade-in">
@@ -28,9 +44,10 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-				Jerry Zhang
-			</h1>
+			<h1 className="z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
+        {title}
+				<span className="inline-block w-1 h-[1.25rem] ml-1 bg-white animate-ping"></span>
+      </h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
