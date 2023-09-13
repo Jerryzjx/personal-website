@@ -83,7 +83,7 @@ module.exports = {
 						opacity: "0%",
 					},
 				},
-				title: {
+				/*title: {
 					"0%": {
 						"line-height": "0%",
 						"letter-spacing": "0.3em",
@@ -101,7 +101,7 @@ module.exports = {
 						"line-height": "100%",
 						opacity: "100%",
 					},
-				},
+				},*/
 				typing: {
 					"0%": {
 						width: "0%",

@@ -31,7 +31,7 @@ export default function Home() {
 				quantity={100}
 			/>
 			<h1 className="z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline
-			font-display inline-block overflow-hidden animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5
+			font-display inline-block animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5
 			ease-linear sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
 				Jerry Zhang
 			</h1>
