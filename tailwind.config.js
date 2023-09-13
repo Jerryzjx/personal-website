@@ -41,6 +41,7 @@ module.exports = {
 				title: "title 3s ease-out forwards",
 				"fade-left": "fade-left 3s ease-in-out forwards",
 				"fade-right": "fade-right 3s ease-in-out forwards",
+				typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
 			},
 			keyframes: {
 				"fade-in": {
@@ -102,9 +103,22 @@ module.exports = {
 					},
 				},
 				typing: {
-					'0%': { 'width': '0%' },
-					'100%': { 'width': '100%' }
+					"0%": {
+						width: "0%",
+						visibility: "hidden"
+					},
+					"100%": {
+						width: "100%"
+					}
 				},
+				blink: {
+					"50%": {
+						borderColor: "transparent"
+					},
+					"100%": {
+						borderColor: "white"
+					}
+				}
 			},
 		},
 	},
