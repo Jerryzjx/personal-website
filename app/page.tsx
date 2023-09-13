@@ -31,10 +31,9 @@ export default function Home() {
 				quantity={100}
 			/>
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline
-			font-display inline-block animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5
-			ease-linear sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
-				Jerry Zhang
-			</h1>
+			font-display inline-block animate-typing overflow-hidden border-r-4 border-r-white pr-5
+			ease-linear sm:text-6xl md:text-9xl bg-clip-text">
+				Jerry Zhang </h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
