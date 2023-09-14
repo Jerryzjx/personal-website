@@ -30,8 +30,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="text-4xl text-transparent duration-1000 bg-white cursor-default
-			font-display animate-typing overflow-hidden border-r-4 border-r-white pr-5
+			<h1 className="text-4xl bg-white font-display animate-typing overflow-hidden border-r-4 border-r-white pr-5
 			ease-linear sm:text-6xl md:text-9xl bg-clip-text">
 				Jerry Zhang </h1>
 
