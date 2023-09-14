@@ -41,7 +41,7 @@ export default function Home() {
 					Hi, my name is Jerry, I'm a computer science student at the {" "}
 					<Link
 						target="_blank"
-						href="https://upstash.com"
+						href=""
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						University of Waterloo
@@ -51,7 +51,7 @@ export default function Home() {
 					and I like to work on{" "}
 					<Link
 						target="_blank"
-						href="https://unkey.dev"
+						href=""
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						my backend projects
