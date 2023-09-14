@@ -30,11 +30,12 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
+			<div className="w-max">
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline
 			font-display animate-typing overflow-hidden border-r-4 border-r-white pr-5
 			ease-linear sm:text-6xl md:text-9xl bg-clip-text">
 				Jerry Zhang </h1>
-
+			</div>
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-base text-zinc-500 ">
