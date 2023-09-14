@@ -30,10 +30,17 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<div className="w-max">
-			<h1 className="animate-typing overflow-hidden border-r-4 border-r-white pr-5 z-10 text-4xl text-transparent
-		     bg-white font-display sm:text-6xl md:text-9xl bg-clip-text">
-				Hi! I'm Jerry Zhang </h1>
+			<div className="relative w-max">
+				<!-- Ghost Element -->
+				<h1 className="absolute opacity-0 z-0 text-4xl font-display sm:text-6xl md:text-9xl">
+					Hi! I'm Jerry Zhang
+				</h1>
+
+				<!-- Actual Animated Element -->
+				<h1 className="relative animate-typing overflow-hidden border-r-4 border-r-white pr-5 z-10 text-4xl text-transparent
+     bg-white font-display sm:text-6xl md:text-9xl bg-clip-text">
+					Hi! I'm Jerry Zhang
+				</h1>
 			</div>
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
