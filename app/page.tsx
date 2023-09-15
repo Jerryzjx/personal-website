@@ -32,12 +32,12 @@ export default function Home() {
 			/>
 			<div className="relative w-max">
 
-				<h1 className="absolute opacity-0 z-0 text-4xl font-display sm:text-6xl md:text-9xl">
+				<h1 className="absolute top-0 left-0 w-full opacity-0 z-0 text-4xl font-display sm:text-6xl md:text-9xl">
 					Hi! I'm Jerry Zhang
 				</h1>
 
 
-				<h1 className="relative animate-typing overflow-hidden border-r-4 border-r-white pr-5 z-10 text-4xl text-transparent
+				<h1 className="absolute top-0 left-0 w-full relative animate-typing overflow-hidden border-r-4 border-r-white pr-5 z-10 text-4xl text-transparent
                bg-white font-display sm:text-6xl md:text-9xl bg-clip-text">
 					Hi! I'm Jerry Zhang
 				</h1>
