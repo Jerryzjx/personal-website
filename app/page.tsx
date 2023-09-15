@@ -32,7 +32,7 @@ export default function Home() {
 			/>
 			<div className="w-max">
 				<h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-4xl text-transparent
-               bg-white font-display sm:text-5xl md:text-7xl bg-clip-text">
+               bg-white font-display sm:text-6xl md:text-8xl bg-clip-text">
 					Hi! I'm Jerry Zhang
 				</h1>
 			</div>
