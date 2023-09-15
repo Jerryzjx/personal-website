@@ -38,7 +38,7 @@ module.exports = {
 			},
 			animation: {
 				"fade-in": "fade-in 3s ease-in-out forwards",
-				typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+				typing: "typing 2.5s steps(20) infinite alternate, blink .7s infinite",
 				"fade-left": "fade-left 3s ease-in-out forwards",
 				"fade-right": "fade-right 3s ease-in-out forwards",
 			},
