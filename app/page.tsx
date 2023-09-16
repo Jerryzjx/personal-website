@@ -11,18 +11,17 @@ const navigation = [
 export default function Home() {
 
 	return (
-		<div className="container">
+		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<Script src="https://www.googletagmanager.com/gtag/js?id=G-JH19V2SF4M" />
 			<Script id="google-analytics">
 				{`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
+ 
           gtag('config', 'G-JH19V2SF4M');
         `}
 			</Script>
-		</div>
-		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<nav className="my-16 animate-fade-in">
 				<ul className="flex items-center justify-center gap-4">
 					{navigation.map((item) => (
