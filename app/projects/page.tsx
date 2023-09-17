@@ -103,7 +103,7 @@ export default async function ProjectsPage() {
 				</div>
 
 				<div className="hidden w-full h-px md:block bg-zinc-800" />
-				<p className="mt-4 items-center justify-center text-zinc-400">
+				<p className="mt-4 text-center w-full text-zinc-400">
 					More projects coming soon.
 				</p>
 				{/*
