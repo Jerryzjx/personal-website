@@ -101,6 +101,9 @@ export default async function ProjectsPage() {
 						))}
 					</div>
 				</div>
+				<p className="mt-4 text-zinc-400">
+					More projects coming soon.
+				</p>
 				<div className="hidden w-full h-px md:block bg-zinc-800" />
 
 				<div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
