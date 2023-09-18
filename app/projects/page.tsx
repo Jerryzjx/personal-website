@@ -6,6 +6,7 @@ import { Card } from "../components/card";
 import { Article } from "./article";
 import { Redis } from "@upstash/redis";
 import { Eye } from "lucide-react";
+import Script from "next/script";
 
 const redis = Redis.fromEnv();
 
@@ -39,6 +40,16 @@ export default async function ProjectsPage() {
 
 	return (
 		<div className="relative pb-16">
+			<Script src="https://www.googletagmanager.com/gtag/js?id=G-JH19V2SF4M" />
+			<Script id="google-analytics">
+				{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-JH19V2SF4M');
+        `}
+			</Script>
 			<Navigation />
 			<div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
 				<div className="max-w-2xl mx-auto lg:mx-0">
