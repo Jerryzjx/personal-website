@@ -58,16 +58,6 @@ export default function Home() {
 						University of Waterloo
 					</Link>
 
-					<br />
-					and I like to work on{" "}
-					<Link
-						target="_blank"
-						href=""
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						my backend projects
-					</Link>{" "}
-					at night.
 				</h2>
 			</div>
 		</div>
