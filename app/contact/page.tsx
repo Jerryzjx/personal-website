@@ -21,7 +21,7 @@ const socials = [
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/JerryZhang0920",
+		href: "https://github.com/Jerryzjx",
 		label: "Github",
 		handle: "Jerry Zhang",
 	},
